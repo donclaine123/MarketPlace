@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.npm-cache/
+.env*
+!.env.example
+*.tsbuildinfo
+.vercel/
+test-results/
+playwright-report/
+docs/
+tests/
+screenshots/
+playwright.config.ts
+DEVELOPMENT_GUIDE.md
+FEATURES.md
+SETUP.md
+*.log
