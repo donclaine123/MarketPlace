@@ -9,4 +9,5 @@ export type Listing = {
   image_url: string;
   location: string;
   created_at: string;
+  sold_at?: string | null;
 };

@@ -235,4 +235,12 @@
 .form-demo, .message-form .form-demo { color: #80612d; }
 .message-success { color: #35704e; }
 .preview-tip strong { color: #536879; }
+.payment-page { min-height: calc(100dvh - 76px); padding: 44px 20px; display: flex; justify-content: center; align-items: flex-start; }
+.payment-card { width: 100%; max-width: 520px; padding: 32px; background: white; border: 1px solid #dce3eb; border-radius: 18px; display: flex; flex-direction: column; align-items: flex-start; gap: 20px; }
+.payment-card h1 { font-size: clamp(26px,5vw,34px); line-height: 1.15; letter-spacing: -1px; font-weight: 650; }
+.payment-card p { color: #657385; font-size: 14px; line-height: 1.7; }
+.payment-card form { width: 100%; display: grid; gap: 18px; }
+.payment-notice { padding: 16px; border: 1px solid #b9ddca; background: #f0faf4; border-radius: 10px; color: #286644; font-size: 13px; line-height: 1.6; }
+.purchase-panel { display: grid; gap: 12px; margin: 24px 0; }
+.sold-badge { display: inline-block; color: #286644; background: #e6f5eb; padding: 6px 12px; border-radius: 6px; font-size: 13px; font-weight: 650; }
 @media (prefers-reduced-motion:reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
